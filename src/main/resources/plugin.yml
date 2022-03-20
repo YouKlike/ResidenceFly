@@ -1,0 +1,13 @@
+name: ResidenceFly
+
+version: '${project.version}'
+api-version: '${plugin.api.version}'
+
+authors: [ YouKlike ]
+description: '${project.description}'
+
+main: cookie.com.ResidenceFly
+
+permissions:
+  ResidenceFly.bypass:
+    description: This is a permission of resfly

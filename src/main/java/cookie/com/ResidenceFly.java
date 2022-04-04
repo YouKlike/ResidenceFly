@@ -46,9 +46,9 @@ public class ResidenceFly extends JavaPlugin implements Listener {
         final ClaimedResidence residence =
                 Residence.getInstance().getResidenceManager().getByLoc(player);
 
-        if (player.hasPermission("ResidenceFly.allow")) return;
+        if (player.hasPermission("ResidenceFly.bypass")) return;
 
-        if (residence != null && residence.getPermissions().playerHas(player , Flags.fly ,false))
+        if (residence != null && residence.getPermissions().playerHas(player , Flags.fly ,false) && player.hasPermission("ResidenceFly.allow"))
             Bukkit.getPluginManager().callEvent(new ClaimedResidenceJoinEvent(player, residence));
 
         else

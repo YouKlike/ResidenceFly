@@ -11,3 +11,5 @@ main: cookie.com.ResidenceFly
 permissions:
   ResidenceFly.bypass:
     description: This is a permission of resfly
+  ResidenceFly.allow:
+    description: Allow player to fly

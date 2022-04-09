@@ -10,7 +10,9 @@ PaperMC - 1.18.1
 Stand on your own residence
 and enter /res set
 found flag name "fly"
+
 ![image](https://user-images.githubusercontent.com/76389965/162558158-eaa06b76-6c13-4c96-bf63-d1efc7359dcb.png)
+
 
 if it is open and you have permission
 you will get the message
